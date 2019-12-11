@@ -21,7 +21,7 @@ sudo apt-get install -y xargs
 echo "installing bash_profile aliases from recon_profile"
 git clone https://github.com/nahamsec/recon_profile.git
 cd /root/BBS/recon_profile
-cp bash_profile ~/.bash_profile
+cp .bash_profile ~/.bash_profile
 source ~/.bash_profile
 cd ~/tools/
 echo "done"
